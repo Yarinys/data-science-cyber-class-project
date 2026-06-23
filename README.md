@@ -4,7 +4,7 @@ Final project for **Data Science in Cyber** (Dr. Uri Itai). This repository crit
 stress-tests a published machine-learning credit-card fraud detector, testing whether the author's
 claim of ~100% accuracy is supported by the evidence.
 
-**Author:** Itay Cohen (328316591)
+**Author:** Yarin Saraga (330744392)
 
 ## Summary
 
