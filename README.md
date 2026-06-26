@@ -49,5 +49,4 @@ jupyter notebook fraud_critical_repro.ipynb   # run from the repo root so DataFi
 ## Dataset source
 
 The dataset is the public Kaggle/ULB credit-card fraud collection (284,807 transactions, 492 frauds,
-28 anonymised PCA features plus `Time` and `Amount`). It is committed here gzipped (`DataFiles/creditcard.csv`,
-~43 MB) so the notebook is self-contained; `pandas.read_csv` reads the `.gz` directly.
+28 anonymised PCA features plus `Time` and `Amount`). It is committed here as `DataFiles/creditcard.csv`, so the notebook is self-contained and can be loaded directly with `pandas.read_csv`.
