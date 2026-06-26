@@ -30,7 +30,7 @@ Three experiments form the spine of the evaluation:
 fraud_critical_repro.ipynb            # full analysis notebook (run top to bottom)
 Fraud_Critical_Evaluation_Report.pdf  # written report (8 sections) — final deliverable
 Fraud_Critical_Evaluation_Report.docx # editable report source
-DataFiles/creditcard.csv.gz           # dataset, gzipped (pandas reads it directly)
+DataFiles/creditcard.csv           # dataset, gzipped (pandas reads it directly)
 requirements.txt                      # dependencies
 ```
 
@@ -49,5 +49,5 @@ jupyter notebook fraud_critical_repro.ipynb   # run from the repo root so DataFi
 ## Dataset source
 
 The dataset is the public Kaggle/ULB credit-card fraud collection (284,807 transactions, 492 frauds,
-28 anonymised PCA features plus `Time` and `Amount`). It is committed here gzipped (`DataFiles/creditcard.csv.gz`,
+28 anonymised PCA features plus `Time` and `Amount`). It is committed here gzipped (`DataFiles/creditcard.csv`,
 ~43 MB) so the notebook is self-contained; `pandas.read_csv` reads the `.gz` directly.
